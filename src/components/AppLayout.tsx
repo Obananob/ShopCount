@@ -9,7 +9,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
   
   const handleFeedback = () => {
     // Opens feedback form - can be customized with your feedback URL
-    window.open("https://forms.gle/your-feedback-form", "_blank");
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSc3cy3IXeL-DBi9o8uQKhkNP1AQJJ7knA_55Pri6w5wLY_G0g/viewform?usp=publish-editor", "_blank");
   };
 
   return (
