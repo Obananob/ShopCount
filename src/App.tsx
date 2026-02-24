@@ -25,9 +25,7 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => {
-  console.log("App component rendering...");
   useEffect(() => {
-    console.log("App mounted, starting sync timer...");
     // Start background sync
     syncService.startSyncTimer();
   }, []);
